@@ -13,12 +13,12 @@
 		bugname = copytext(bugname, TRUE, 101)
 		src << "<span class = 'warning'>Your bug's name was clamped to 100 characters.</span>"
 
+	bugname = sanitizeSQL(bugname)
+
 	var/check_name_already_exists = database.execute("SELECT * FROM bug_reports WHERE name = '[bugname]';", FALSE)
 	if (islist(check_name_already_exists) && !isemptylist(check_name_already_exists))
 		src << "<span class = 'danger'>This bug already exists! Please choose another name.</span>"
 		goto rename
-
-	bugname = sanitizeSQL(bugname)
 
 	redesc
 

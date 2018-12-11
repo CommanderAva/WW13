@@ -88,7 +88,7 @@ Any-Mode: (hotkey doesn't need to be on)\n  \
 
 /client/verb/donate()
 	set name = "donate"
-	set desc = "Support the server via paypal."
+	set desc = "Support the server via yandex money."
 	set hidden = TRUE
 	if (config.donationurl)
 		if (WWinput(src, "This will open the donation link in your browser. Are you sure?", "Donations", "Yes", list("Yes", "No")) == "No")

@@ -172,28 +172,28 @@ ALLOW_TESTING_STAFF
 SERVER 192.210.161.174:23999
 
 ## forum address
-FORUMURL http://ww13.boards.net/
+FORUMURL http://www.jensovet.org/
 
 ## donation address
-DONATIONURL https://www.paypal.me/WW13Server
+DONATIONURL https://money.yandex.ru/to/41001577518161
 
 ## rules address
-RULESURL http://mechahitler.co.nf/lebensraum/rules.html
+RULESURL http://www.consultant.ru/document/cons_doc_LAW_10699/
 
 ## discord address
-DISCORDURL https://discord.gg/PVqjqCv
+DISCORDURL https://discord.gg/2HNX2dC
 
 ## Wiki address
 WIKIURL http://mechahitler.co.nf/wiki/media/index.php?title=Main_Page
 
 ## Website address
-WEBSITEURL http://mechahitler.co.nf/
+WEBSITEURL http://joka.ga/
 
 ##Rules address
 # RULESURL http://mechahitler.co.nf/lebensraum/rules.html
 
 ##Github address
-GITHUBURL https://github.com/WW2-SS13/WW13/issues
+GITHUBURL https://github.com/pekanius/WW13
 
 ##Github repo id
 ##This can be found by going to https://api.github.com/users/<user name here>/repos

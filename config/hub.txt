@@ -37,9 +37,9 @@
 #### Actual definitions
 
 PREINFO nil
-TITLE <font color = red>Lebensraum</font>
-OOCDESC The official WW13 server, running the bleeding edge of the WW13 codebase.
+TITLE <font color = red>Lebensraum [RUS]</font>
+OOCDESC The russian WW13 server.
 ICDESC {Timeofday}, {Weather}, {Season}, Ukraine.<br>The round time is {ROUNDTIME}. Map: {Map}.
 RPLEVEL Low-Medium Roleplay
-HOSTEDBY <b>Kachnov</b>
+HOSTEDBY <b>Rob_Bastard</b>
 POSTINFO nil
