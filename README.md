@@ -5,8 +5,5 @@
 
 [![forthebadge](http://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](http://forthebadge.com)
 
-# Development Discord
-[![discord](https://discordapp.com/api/guilds/457695742849581056/widget.png)](https://discord.gg/wSzZTgU)
-
-# Lebensraum Discord
-[![discord](https://discordapp.com/api/guilds/331613189462556672/widget.png)](https://discord.gg/PVqjqCv)
+# Russian Lebensraum Discord
+[![discord](https://discordapp.com/api/guilds/521656570938130434/widget.png)](https://discord.gg/2HNX2dC)
