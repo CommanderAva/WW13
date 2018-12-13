@@ -36,16 +36,16 @@
 		// large body parts: chest, groin
 		"large" = list(
 			SHORT_RANGE_STILL = 79,
-			SHORT_RANGE_MOVING = 63,
+			SHORT_RANGE_MOVING = 79,
 
 			MEDIUM_RANGE_STILL = 59,
-			MEDIUM_RANGE_MOVING = 47,
+			MEDIUM_RANGE_MOVING = 59,
 
 			LONG_RANGE_STILL = 39,
-			LONG_RANGE_MOVING = 31,
+			LONG_RANGE_MOVING = 39,
 
 			VERY_LONG_RANGE_STILL = 16,
-			VERY_LONG_RANGE_MOVING = 13),
+			VERY_LONG_RANGE_MOVING = 16),
 	)
 
 	accuracy_increase_mod = 2.00
