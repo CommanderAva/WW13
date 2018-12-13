@@ -26,30 +26,30 @@
 		// medium body parts: limbs
 		"medium" = list(
 			SHORT_RANGE_STILL = 64,
-			SHORT_RANGE_MOVING = 42,
+			SHORT_RANGE_MOVING = 58,
 
 			MEDIUM_RANGE_STILL = 56,
-			MEDIUM_RANGE_MOVING = 38,
+			MEDIUM_RANGE_MOVING = 50,
 
 			LONG_RANGE_STILL = 49,
-			LONG_RANGE_MOVING = 32,
+			LONG_RANGE_MOVING = 44,
 
 			VERY_LONG_RANGE_STILL = 41,
-			VERY_LONG_RANGE_MOVING = 27),
+			VERY_LONG_RANGE_MOVING = 37),
 
 		// large body parts: chest, groin
 		"large" = list(
 			SHORT_RANGE_STILL = 68,
-			SHORT_RANGE_MOVING = 44,
+			SHORT_RANGE_MOVING = 68,
 
 			MEDIUM_RANGE_STILL = 60,
-			MEDIUM_RANGE_MOVING = 40,
+			MEDIUM_RANGE_MOVING = 60,
 
 			LONG_RANGE_STILL = 53,
-			LONG_RANGE_MOVING = 35,
+			LONG_RANGE_MOVING = 53,
 
 			VERY_LONG_RANGE_STILL = 45,
-			VERY_LONG_RANGE_MOVING = 30),
+			VERY_LONG_RANGE_MOVING = 45),
 	)
 
 	accuracy_increase_mod = 1.50
@@ -249,7 +249,7 @@
 
 /obj/item/weapon/gun/projectile/pistol/feg37m
 	name = "FEG 37M"
-	desc = "The FÉG 37M is a Hungarian semi-automatic pistol based on a design by Rudolf Frommer."
+	desc = "The FÃ‰G 37M is a Hungarian semi-automatic pistol based on a design by Rudolf Frommer."
 	icon_state = "feg37m"
 	item_state = "gun"
 	w_class = 2
