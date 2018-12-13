@@ -33,14 +33,14 @@
 
 		// large body parts: chest, groin
 		"large" = list(
-			SHORT_RANGE_STILL = 83,
-			SHORT_RANGE_MOVING = 83,
+			SHORT_RANGE_STILL = 85,
+			SHORT_RANGE_MOVING = 85,
 
-			MEDIUM_RANGE_STILL = 73,
-			MEDIUM_RANGE_MOVING = 73,
+			MEDIUM_RANGE_STILL = 70,
+			MEDIUM_RANGE_MOVING = 70,
 
-			LONG_RANGE_STILL = 63,
-			LONG_RANGE_MOVING = 63,
+			LONG_RANGE_STILL = 60,
+			LONG_RANGE_MOVING = 60,
 
 			VERY_LONG_RANGE_STILL = 53,
 			VERY_LONG_RANGE_MOVING = 53),
@@ -311,7 +311,7 @@
 	weight = 4.6
 
 	firemodes = list(
-		list(name="semi automatic",	burst=1, burst_delay=0.8, move_delay=2, dispersion = list(0.2, 0.4, 0.4, 0.4, 0.6)),
+		list(name="semi automatic",	burst=1, burst_delay=0.8, move_delay=2, dispersion = list(0.2, 0.3, 0.3, 0.3, 0.5)),
 		list(name="short bursts",	burst=3, burst_delay=1.0, move_delay=3, dispersion = list(0.6, 1.0, 1.0, 1.0, 1.2)),
 		list(name="long bursts",	burst=5, burst_delay=1.2, move_delay=4, dispersion = list(1.0, 1.4, 1.4, 1.4, 1.6)),
 		)

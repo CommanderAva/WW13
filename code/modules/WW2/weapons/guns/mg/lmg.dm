@@ -20,11 +20,11 @@
 
 		// medium body parts: limbs
 		"medium" = list(
-			SHORT_RANGE_STILL = 57,
-			SHORT_RANGE_MOVING = 53,
+			SHORT_RANGE_STILL = 38,
+			SHORT_RANGE_MOVING = 34,
 
-			MEDIUM_RANGE_STILL = 51,
-			MEDIUM_RANGE_MOVING = 48,
+			MEDIUM_RANGE_STILL = 30,
+			MEDIUM_RANGE_MOVING = 27,
 
 			LONG_RANGE_STILL = 23,
 			LONG_RANGE_MOVING = 21,
@@ -34,14 +34,14 @@
 
 		// large body parts: chest, groin
 		"large" = list(
-			SHORT_RANGE_STILL = 45,
-			SHORT_RANGE_MOVING = 45,
+			SHORT_RANGE_STILL = 65,
+			SHORT_RANGE_MOVING = 65,
 
-			MEDIUM_RANGE_STILL = 38,
-			MEDIUM_RANGE_MOVING = 38,
+			MEDIUM_RANGE_STILL = 60,
+			MEDIUM_RANGE_MOVING = 60,
 
-			LONG_RANGE_STILL = 30,
-			LONG_RANGE_MOVING = 30,
+			LONG_RANGE_STILL = 45,
+			LONG_RANGE_MOVING = 45,
 
 			VERY_LONG_RANGE_STILL = 15,
 			VERY_LONG_RANGE_MOVING = 15),
@@ -66,9 +66,9 @@
 	slot_flags = SLOT_BACK
 
 	firemodes = list(
-		list(name="short bursts",	burst=4, burst_delay=0.8, move_delay=8, dispersion = list(0.4, 0.7, 0.8, 0.8, 0.9), recoil = 1.0),
-		list(name="long bursts",	burst=8, burst_delay=1.5, move_delay=11, dispersion = list(0.4, 0.7, 0.8, 0.8, 0.9), recoil = 1.5)
-		)
+        list(name="short bursts",    burst=4, burst_delay=0.8, move_delay=8, dispersion = list(0.4, 0.7, 0.8, 0.8, 0.9), recoil = 1.0),
+        list(name="long bursts",    burst=8, burst_delay=1.5, move_delay=11, dispersion = list(0.4, 0.7, 0.8, 0.8, 0.9), recoil = 1.5)
+	)
 
 	sel_mode = 2
 	force = 20
@@ -104,9 +104,9 @@
 	slot_flags = SLOT_BACK
 
 	firemodes = list(
-		list(name="short bursts",	burst=4, burst_delay=0.8, move_delay=8, dispersion = list(0.7, 1.1, 1.1, 1.1, 1.3), recoil = 1.0),
-		list(name="long bursts",	burst=8, burst_delay=1.5, move_delay=11, dispersion = list(0.9, 1.3, 1.3, 1.3, 1.5), recoil = 1.5)
-		)
+        list(name="short bursts",    burst=4, burst_delay=0.8, move_delay=8, dispersion = list(0.4, 0.7, 0.8, 0.8, 0.9), recoil = 1.0),
+        list(name="long bursts",    burst=8, burst_delay=1.5, move_delay=11, dispersion = list(0.4, 0.7, 0.8, 0.8, 0.9), recoil = 1.5)
+	)
 
 	sel_mode = 2
 	force = 20
@@ -141,9 +141,9 @@
 	slot_flags = SLOT_BACK
 
 	firemodes = list(
-		list(name="short bursts",	burst=4, burst_delay=0.8, move_delay=8, dispersion = list(0.7, 1.1, 1.1, 1.1, 1.3), recoil = 1.0),
-		list(name="long bursts",	burst=8, burst_delay=1.5, move_delay=11, dispersion = list(0.9, 1.3, 1.3, 1.3, 1.5), recoil = 1.5)
-		)
+        list(name="short bursts",    burst=4, burst_delay=0.8, move_delay=8, dispersion = list(0.4, 0.7, 0.8, 0.8, 0.9), recoil = 1.0),
+        list(name="long bursts",    burst=8, burst_delay=1.5, move_delay=11, dispersion = list(0.4, 0.7, 0.8, 0.8, 0.9), recoil = 1.5)
+	)
 
 	sel_mode = 2
 	force = 20
@@ -188,8 +188,8 @@
 	wielded_icon = "assault-wielded"
 
 	firemodes = list(
-		list(name="short bursts", burst=8, move_delay=10, dispersion = list(0.4, 0.7, 0.8, 0.9, 1.0), burst_delay = 1.0, recoil = 1.4),
-		list(name="long bursts", burst=16, move_delay=12, dispersion = list(0.6, 0.8, 0.8, 0.9, 1.2), burst_delay = 1.4, recoil = 2.8)
+        list(name="short bursts", burst=6, move_delay=10, dispersion = list(0.4, 0.7, 0.8, 0.9, 1.0), burst_delay = 1.0, recoil = 1.4),
+        list(name="long bursts", burst=14, move_delay=12, dispersion = list(0.6, 0.8, 0.8, 0.9, 1.2), burst_delay = 1.2, recoil = 2.8)
 		)
 
 	fire_delay = 3

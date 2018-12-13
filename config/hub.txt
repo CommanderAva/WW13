@@ -37,9 +37,9 @@
 #### Actual definitions
 
 PREINFO nil
-TITLE <font color = red>Lebensraum [RUS]</font>
+TITLE <font color = red>Ava's Battlegrounds [RUS]</font>
 OOCDESC The russian WW13 server.
 ICDESC {Timeofday}, {Weather}, {Season}, Ukraine.<br>The round time is {ROUNDTIME}. Map: {Map}.
 RPLEVEL Low-Medium Roleplay
-HOSTEDBY <b>Rob_Bastard</b>
+HOSTEDBY <b>Rob_Bastard, Ava</b>
 POSTINFO nil
