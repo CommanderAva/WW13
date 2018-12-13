@@ -66,8 +66,8 @@
 	slot_flags = SLOT_BACK
 
 	firemodes = list(
-		list(name="short bursts",	burst=4, burst_delay=0.8, move_delay=8, dispersion = list(0.7, 1.1, 1.1, 1.1, 1.3), recoil = 1.0),
-		list(name="long bursts",	burst=8, burst_delay=1.5, move_delay=11, dispersion = list(0.9, 1.3, 1.3, 1.3, 1.5), recoil = 1.5)
+		list(name="short bursts",	burst=4, burst_delay=0.8, move_delay=8, dispersion = list(0.4, 0.7, 0.8, 0.8, 0.9), recoil = 1.0),
+		list(name="long bursts",	burst=8, burst_delay=1.5, move_delay=11, dispersion = list(0.4, 0.7, 0.8, 0.8, 0.9), recoil = 1.5)
 		)
 
 	sel_mode = 2
