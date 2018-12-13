@@ -22,16 +22,16 @@
 		// medium body parts: limbs
 		"medium" = list(
 			SHORT_RANGE_STILL = 59,
-			SHORT_RANGE_MOVING = 47,
+			SHORT_RANGE_MOVING = 53,
 
 			MEDIUM_RANGE_STILL = 39,
-			MEDIUM_RANGE_MOVING = 31,
+			MEDIUM_RANGE_MOVING = 35,
 
 			LONG_RANGE_STILL = 16,
-			LONG_RANGE_MOVING = 13,
+			LONG_RANGE_MOVING = 14,
 
 			VERY_LONG_RANGE_STILL = 9,
-			VERY_LONG_RANGE_MOVING = 7),
+			VERY_LONG_RANGE_MOVING = 8),
 
 		// large body parts: chest, groin
 		"large" = list(
