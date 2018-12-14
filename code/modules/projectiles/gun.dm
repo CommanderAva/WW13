@@ -40,7 +40,7 @@
 
 	var/fire_delay = 5 	//delay after shooting before the gun can be used again
 	var/burst_delay = 2	//delay between shots, if firing in bursts
-	var/fire_sound = 'sound/weapons/kar_shot.ogg'
+	var/fire_sound = 'sound/weapons/guns/fire/kar_fire.ogg'
 	var/fire_sound_text = "gunshot"
 	var/recoil = 0		//screen shake
 	var/silenced = FALSE

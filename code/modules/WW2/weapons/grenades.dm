@@ -10,9 +10,10 @@
 
 /obj/item/weapon/grenade/explosive/rgd
 	name = "RGD-33"
+	desc = "RGD-33 soviet hand grenade with a fragmentation skirt. Hide after you throw it."
 	icon_state = "rgd"
 	explosion_size = 4
-	num_fragments = 37
+	num_fragments = 65
 
 /obj/item/weapon/grenade/explosive/kamikaze
 	name = "Kamikaze Charge"

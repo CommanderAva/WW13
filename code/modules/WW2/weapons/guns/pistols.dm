@@ -72,7 +72,7 @@
 	item_state = "gun"
 	w_class = 2
 	caliber = "a9mm_para_luger"
-	fire_sound = 'sound/weapons/Gunshot_light.ogg'
+	fire_sound = 'sound/weapons/guns/fire/luger_fire.ogg'
 	load_method = MAGAZINE
 	magazine_type = /obj/item/ammo_magazine/luger
 	weight = 0.87

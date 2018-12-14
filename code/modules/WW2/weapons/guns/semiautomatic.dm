@@ -93,6 +93,7 @@
 	firemodes = list(
 		list(name="single shot",burst=1, move_delay=2, fire_delay=6)
 		)
+	fire_sound = 'sound/weapons/guns/fire/svt_fire.ogg'
 
 	gun_type = GUN_TYPE_RIFLE
 	attachment_slots = ATTACH_IRONSIGHTS|ATTACH_BARREL
@@ -122,6 +123,7 @@
 	slot_flags = SLOT_BACK
 	ammo_type = /obj/item/ammo_casing/a792x57
 	magazine_type = /obj/item/ammo_magazine/kar98k
+	fire_sound = 'sound/weapons/guns/fire/g41_fire.ogg'
 	weight = 4.9
 	firemodes = list(
 		list(name="single shot",burst=1, move_delay=2, fire_delay=6)
@@ -191,6 +193,7 @@
 	firemodes = list(
 		list(name="single shot",burst=1, move_delay=2, fire_delay=6)
 		)
+	fire_sound = 'sound/weapons/guns/fire/garand_fire.ogg'
 	force = 10
 	throwforce = 20
 	attachment_slots = ATTACH_IRONSIGHTS|ATTACH_BARREL
@@ -305,7 +308,7 @@
 	slot_flags = SLOT_BACK|SLOT_BELT
 	w_class = 4
 	caliber = "a792x33"
-	fire_sound = 'sound/weapons/stg.ogg'
+	fire_sound = 'sound/weapons/guns/fire/stg_fire.ogg'
 	load_magazine_sound = 'sound/weapons/stg_reload.ogg'
 	magazine_type = /obj/item/ammo_magazine/a762/akm
 	weight = 4.6

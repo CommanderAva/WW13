@@ -171,7 +171,7 @@
 	name = "Mosin-Nagant"
 	desc = "Soviet bolt-action rifle chambered in 7.62x54mmR cartridges. It looks worn and has Katyusha on the butt."
 	force = 12
-	fire_sound = 'sound/weapons/mosin_shot.ogg'
+	fire_sound = 'sound/weapons/guns/fire/mosin_shot.ogg'
 	caliber = "a762x54"
 	weight = 4.0
 	effectiveness_mod = 0.97
@@ -203,7 +203,7 @@
 	icon_state = "kar98k"
 	item_state = "kar98k"
 	caliber = "a792x57"
-	fire_sound = 'sound/weapons/kar_shot.ogg'
+	fire_sound = 'sound/weapons/guns/fire/kar_fire.ogg'
 	ammo_type = /obj/item/ammo_casing/a792x57
 	magazine_type = /obj/item/ammo_magazine/kar98k
 	bolt_safety = TRUE
@@ -240,7 +240,7 @@
 	icon_state = "springfield"
 	item_state = "springfield"
 	caliber = "c762x63"
-	fire_sound = 'sound/weapons/kar_shot.ogg'
+	fire_sound = 'sound/weapons/guns/fire/mosin_shot.ogg'
 	ammo_type = /obj/item/ammo_casing/c762x63
 	magazine_type = /obj/item/ammo_magazine/c762x63_5
 	bolt_safety = TRUE
@@ -277,7 +277,7 @@
 	icon_state = "carcano"
 	item_state = "carcano"
 	caliber = "6.5x52mm"
-	fire_sound = 'sound/weapons/kar_shot.ogg'
+	fire_sound = 'sound/weapons/guns/fire/kar_fire.ogg'
 	ammo_type = /obj/item/ammo_casing/c65x52mm
 	magazine_type = /obj/item/ammo_magazine/c65x52mm
 	max_shells = 6
@@ -309,7 +309,7 @@
 /obj/item/weapon/gun/projectile/boltaction/arisaka
 	name = "Arisaka Type 99"
 	desc = "Japanese bolt-action rifle chambered in 7.7x58mm cartridges."
-	fire_sound = 'sound/weapons/kar_shot.ogg'
+	fire_sound = 'sound/weapons/guns/fire/arisaka_fire.ogg'
 	ammo_type = /obj/item/ammo_casing/a77x58
 	magazine_type = /obj/item/ammo_magazine/a77x58
 	icon_state = "arisaka"

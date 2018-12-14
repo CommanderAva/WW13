@@ -9,12 +9,12 @@
 	unload_sound 	= 'sound/weapons/guns/interact/lmg_magout.ogg'
 	reload_sound 	= 'sound/weapons/guns/interact/lmg_magin.ogg'
 	cocked_sound 	= 'sound/weapons/guns/interact/lmg_cock.ogg'
-	fire_sound = 'sound/weapons/guns/fire/mg34_firing.ogg'
+	fire_sound = 'sound/weapons/guns/fire/mg34_fire.ogg'
 	max_shells = FALSE
 	anchored = FALSE
 	auto_eject = TRUE
 	firemodes = list(
-		list(name="default", burst=6, burst_delay=0.6, fire_delay=1.0, dispersion=list(0.9, 1.1, 1.1, 1.1, 1.3), accuracy=list(2))
+		list(name="default", burst=6, burst_delay=1, fire_delay=1.0, dispersion=list(0.9, 1.1, 1.1, 1.1, 1.3), accuracy=list(2))
 		)
 	fire_delay = 3
 
@@ -49,12 +49,12 @@
 	handle_casings = EJECT_CASINGS
 	max_shells = FALSE
 	caliber = "a792x57"
-	fire_sound = 'sound/weapons/guns/fire/mg34_firing.ogg'
+	fire_sound = 'sound/weapons/guns/fire/mg34_fire.ogg'
 	slot_flags = FALSE
 	ammo_type = /obj/item/ammo_casing/a792x57_weaker
 
 	firemodes = list(	// changed burst from 3 to 6, burst_delay from 2.5 to 0.1 to make this more mg-ish - Kachnov
-		list(name="default", burst=10, burst_delay=0.1, fire_delay=0.75, dispersion=list(0.9, 1.1, 1.1, 1.1, 1.3), accuracy=list(2))
+		list(name="default", burst=10, burst_delay=1, fire_delay=1, dispersion=list(0.9, 1.1, 1.1, 1.1, 1.3), accuracy=list(2))
 		)
 
 /obj/item/weapon/gun/projectile/automatic/stationary/mg34stat/update_icon()
@@ -88,12 +88,12 @@
 	handle_casings = EJECT_CASINGS
 	max_shells = FALSE
 	caliber = "a77x58"
-	fire_sound = 'sound/weapons/guns/fire/mg34_firing.ogg'
+	fire_sound = 'sound/weapons/guns/fire/mg_firing.ogg'
 	slot_flags = FALSE
 	ammo_type = /obj/item/ammo_casing/a77x58_weaker
 
 	firemodes = list(	// changed burst from 3 to 6, burst_delay from 2.5 to 0.1 to make this more mg-ish - Kachnov
-		list(name="default", burst=10, burst_delay=0.1, fire_delay=0.75, dispersion=list(0.9, 1.1, 1.1, 1.1, 1.3), accuracy=list(2))
+		list(name="default", burst=6, burst_delay=1.8, fire_delay=1.3, dispersion=list(0.9, 1.1, 1.1, 1.1, 1.3), accuracy=list(2))
 		)
 
 /obj/item/weapon/gun/projectile/automatic/stationary/type92stat/update_icon()
@@ -123,9 +123,9 @@
 	max_shells = FALSE
 	anchored = FALSE
 	auto_eject = TRUE
-	fire_sound = 'sound/weapons/maxim_shot.ogg'
+	fire_sound = 'sound/weapons/guns/fire/maxim_shot.ogg'
 	firemodes = list(
-		list(name="default", burst=6, burst_delay=0.6, fire_delay=1.0, dispersion=list(0.9, 1.1, 1.1, 1.1, 1.3), accuracy=list(2))
+		list(name="default", burst=5, burst_delay=2, fire_delay=1.5, dispersion=list(0.9, 1.1, 1.1, 1.1, 1.3), accuracy=list(1.5))
 		)
 
 /obj/item/weapon/gun/projectile/automatic/stationary/kord/maxim/update_icon()
@@ -160,12 +160,12 @@
 	handle_casings = EJECT_CASINGS
 	max_shells = FALSE
 	caliber = "a762x54"
-	fire_sound = 'sound/weapons/maxim_shot.ogg'
+	fire_sound = 'sound/weapons/guns/fire/maxim_shot.ogg'
 	slot_flags = FALSE
 	ammo_type = /obj/item/ammo_casing/a762x54
 
 	firemodes = list(	// changed burst from 3 to 6, burst_delay from 2.5 to 0.1 to make this more mg-ish - Kachnov
-		list(name="default", burst=10, burst_delay=0.1, fire_delay=0.75, dispersion=list(0.9, 1.1, 1.1, 1.1, 1.3), accuracy=list(2))
+		list(name="default", burst=5, burst_delay=1.9, fire_delay=1.5, dispersion=list(0.9, 1.1, 1.1, 1.1, 1.3), accuracy=list(2))
 		)
 
 

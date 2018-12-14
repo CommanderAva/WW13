@@ -61,6 +61,7 @@
 	load_method = MAGAZINE
 	slot_flags = SLOT_BACK|SLOT_BELT
 	w_class = 3
+	fire_sound = 'sound/weapons/guns/fire/mp40_fire.ogg'
 	weight = 3.97
 	caliber = "9x19mm"
 	magazine_type = /obj/item/ammo_magazine/mp40
@@ -134,7 +135,7 @@
 	load_method = MAGAZINE
 	slot_flags = SLOT_BACK|SLOT_BELT
 	w_class = 3
-	fire_sound = 'sound/weapons/m16.ogg'
+	fire_sound = 'sound/weapons/guns/fire/ppsh_fire.ogg'
 	caliber = "a762x25"
 	magazine_type = /obj/item/ammo_magazine/a556/ppsh
 	weight = 3.63
@@ -175,6 +176,7 @@
 	//fire_sound = ''
 	caliber = "7.62x25mm"
 	magazine_type = /obj/item/ammo_magazine/c762x25mm_pps
+	fire_sound = 'sound/weapons/guns/fire/ppsh_fire.ogg'
 	weight = 3.04
 	firemodes = list(
         list(name="short bursts",    burst=3, burst_delay=1.0, recoil=0.6, move_delay=3, dispersion = list(0.9, 1.3, 1.3, 1.3, 1.5)),

@@ -133,7 +133,7 @@
 							//You hear a far explosion if you're outside the blast radius. Small bombs shouldn't be heard all over the station.
 
 						else
-							volume = M.playsound_local(epicenter, 'sound/effects/explosionfar.ogg', volume, TRUE, frequency, falloff = 1000)
+							volume = M.playsound_local(epicenter, "artillery_in_distance", volume, TRUE, frequency, falloff = 1000)
 							//Playsound local will return the final volume the sound is actually played at
 							//It will return FALSE if the sound volume falls to FALSE due to falloff or pressure
 							//Also return zero if sound playing failed for some other reason

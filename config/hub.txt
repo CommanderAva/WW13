@@ -39,7 +39,7 @@
 PREINFO nil
 TITLE <font color = red>Ava's Battlegrounds [RUS]</font>
 OOCDESC The russian WW13 server.
-ICDESC {Timeofday}, {Weather}, {Season}, Ukraine.<br>The round time is {ROUNDTIME}. Map: {Map}.
+ICDESC {Timeofday}, {Weather}, {Season}, {Map}.<br>The round time is {ROUNDTIME}. <br>{LIVING} men are fighting and {DEAD} poor souls already laid their bodies on the altar of victory.<br> <img src="https://d.ibtimes.co.uk/en/full/1410835/german-field-marshal-erwin-rommel-takes-refreshment-lybian-desert-during-1941-campaign.jpg?w=720&e=bfb4932010c166f503c78d0a47a83425">
 RPLEVEL Low-Medium Roleplay
-HOSTEDBY <b>Rob_Bastard, Ava</b>
+HOSTEDBY <b>Ava</b>
 POSTINFO nil
