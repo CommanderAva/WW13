@@ -12,10 +12,10 @@ SERVER_NAME Avas Battlegrounds
 HUB_FEATURES light-medium roleplay WW2 Server
 
 ## The main content of your hub message
-HUB_BODY <i>WW2, SEASON, TIME_OF_DAY</i><br>
+HUB_BODY <i>WW2, SEASON, TIME_OF_DAY<br>
 
 ## Use a link to a banner on your hub message? Comment out if not
-HUB_BANNER_URL <img src='http://tny.im/btn'>
+HUB_BANNER_URL <img src="https://imgur.com/a/u5QMp9J">
 
 ## Open the hub discord link in a new window? 1 = yes, 0 = no
 OPEN_HUB_DISCORD_IN_NEW_WINDOW 1

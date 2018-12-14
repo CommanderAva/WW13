@@ -185,7 +185,7 @@
 	message_admins("Explosion with size ([power]) in area [epicenter.loc.name] ([epicenter.x],[epicenter.y],[epicenter.z])")
 	log_game("Explosion with size ([power]) in area [epicenter.loc.name] ")
 
-	playsound(epicenter, 'sound/effects/explosionfar.ogg', 100, TRUE, round(power*2,1) )
+	playsound(epicenter, 'sound/effects/explosionfar01.ogg', 100, TRUE, round(power*2,1) )
 	playsound(epicenter, "explosion", 100, TRUE, round(power,1) )
 
 	explosion_in_progress = TRUE

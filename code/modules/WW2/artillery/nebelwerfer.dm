@@ -37,7 +37,7 @@
 	name = "Nebelwerfer"
 	var/lloaded[6]
 	icon = 'icons/WW2/nebelwerfer.dmi'
-	icon_state = null
+	icon_state = ""
 
 /obj/structure/artillery/base/nebel/getNextOpeningClosingState()
 	return initial(icon_state)
