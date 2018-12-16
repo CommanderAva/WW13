@@ -253,6 +253,7 @@
 	ammo_type = /obj/item/ammo_casing/a792x57_weaker
 	load_method = MAGAZINE
 	magazine_type =	/obj/item/ammo_magazine/maxim/mg34_belt
+	bad_magazine_types = list(/obj/item/ammo_magazine/a792)
 	unload_sound 	= 'sound/weapons/guns/interact/lmg_magout.ogg'
 	reload_sound 	= 'sound/weapons/guns/interact/lmg_magin.ogg'
 	cocked_sound 	= 'sound/weapons/guns/interact/lmg_cock.ogg'
