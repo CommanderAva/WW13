@@ -40,7 +40,6 @@ var/global/obj/map_metadata/map = null
 		list(SOVIET, USA) = /area/prishtina/soviet)
 	var/list/ambience = list('sound/ambience/war.ogg')
 	var/list/songs = list(
-		"Bots - Was Wollen Wir Trinken (Harcourt Edit):1" = 'sound/music/BotsWaswollenwirtrinkenWehrmachtHarcourt.ogg',
 		"ERIKA:1" = 'sound/music/ERIKA.ogg',
 		"Fallschirmjager Lied:1" = 'sound/music/Fallschirmjager_lied_German_paratrooper_song.ogg',
 		"Farewell of Slavianka:1" = 'sound/music/FarewellofSlavianka.ogg',

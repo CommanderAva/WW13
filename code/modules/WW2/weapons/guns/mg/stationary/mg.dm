@@ -54,7 +54,7 @@
 	ammo_type = /obj/item/ammo_casing/a792x57_weaker
 
 	firemodes = list(	// changed burst from 3 to 6, burst_delay from 2.5 to 0.1 to make this more mg-ish - Kachnov
-		list(name="default", burst=10, burst_delay=1, fire_delay=1, dispersion=list(0.9, 1.1, 1.1, 1.1, 1.3), accuracy=list(2))
+		list(name="default", burst=10, burst_delay=1.2, fire_delay=1, dispersion=list(0.7, 0.9, 1.0, 1.0, 1.2), accuracy=list(2))
 		)
 
 /obj/item/weapon/gun/projectile/automatic/stationary/mg34stat/update_icon()
@@ -73,6 +73,13 @@
 	update_held_icon()
 	return
 
+/obj/item/weapon/gun/projectile/automatic/stationary/mg34stat/mg42stat
+	name = "Stationary MG42"
+	desc = "MG42 machinegun established on special wooden pod."
+
+	firemodes = list(	// changed burst from 3 to 6, burst_delay from 2.5 to 0.1 to make this more mg-ish - Kachnov
+		list(name="default", burst=16, burst_delay=0.9, fire_delay=1, dispersion=list(0.9, 1.1, 1.2, 1.2, 1.4), accuracy=list(2))
+		)
 /obj/item/weapon/gun/projectile/automatic/stationary/type92stat
 	name = "Stationary Type 92"
 	desc = "Type 92 machinegun established on special pod."

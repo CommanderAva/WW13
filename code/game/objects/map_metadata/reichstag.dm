@@ -152,6 +152,7 @@ var/no_loop_r = FALSE
 		world << "<font size = 4><span class = 'notice'>[message]</span></font>"
 		show_global_battle_report(null)
 		win_condition_spam_check = TRUE
+		world << sound('sound/music/cross_of_iron.ogg')
 		return FALSE
 	if ((current_winner && current_loser && world.time > next_win) && no_loop_r == FALSE)
 		ticker.finished = TRUE
@@ -161,6 +162,7 @@ var/no_loop_r = FALSE
 		win_condition_spam_check = TRUE
 		no_loop_r = TRUE
 		return FALSE
+		world << sound('sound/music/cross_of_iron.ogg')
 	// German major
 	else if (win_condition.check(typesof(roundend_condition_sides[roundend_condition_sides[2]]), roundend_condition_sides[1], roundend_condition_sides[2], 1.33, TRUE))
 		if (!win_condition.check(typesof(roundend_condition_sides[roundend_condition_sides[1]]), roundend_condition_sides[2], roundend_condition_sides[1], 1.33))

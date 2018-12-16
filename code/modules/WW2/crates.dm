@@ -129,7 +129,7 @@
 	paths = list(/obj/item/ammo_magazine/maxim = DYNAMIC_AMT)
 
 /obj/structure/closet/crate/mg34belt
-	name = "MG34 belts crate"
+	name = "Machinengewehr belts crate"
 	icon_state = "mil_crate_closed"
 	icon_opened = "mil_crate_opened"
 	icon_closed = "mil_crate_closed"
